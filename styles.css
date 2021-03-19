@@ -1,18 +1,99 @@
 body{
     background-color: white;
-}
-nav{
-    border: 1px solid blue;
-    background-color: aliceblue;
-    padding: 0%;
     margin: 0%;
-    color: blue;
+    padding: 0%;
+}
+.navbar{
+    border: 1px solid blue;
+    background-color: rgb(139, 177, 211);
+    padding: 0%;
+    margin-left: 10px;
+    color: rgb(240, 240, 247);
+    height: 50px;
+   
+
 
 }
 .big{
     width: 95vw;
     border: 1px solid turquoise;
-    height: 450px;
     align-content: center;
     margin-left: 2.0vw;
+    padding : 4px;
+
+}
+.navbar a{
+    margin-left: 75px;
+}
+.navbar a:hover{
+    background-color: turquoise;
+    color: black;
+}
+.search{
+    float: right;
+    display: flex;
+
+}
+#searchbutton{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    display: flexbox;
+    height:inherit;
+    margin:0 0 0;
+    text-align:center;
+    width:32px;
+    
+}
+#searchbutton img{
+    width: 16px;
+    margin:3px;
+}
+.navbar input[type=text]{
+
+    margin-right: 7px;
+    height:17px;
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+    width:183px; 
+    float: right;
+
+}
+
+.card{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 300px;
+    padding: 4px;
+
+}
+.card1{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 300px;
+    padding: 4px;
+
+}
+.card2{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 300px;
+    padding: 4px;
+
+}
+#imaage{
+    display: grid;
+    width: 100%;
+    border: 1px solid green;
+    height: 280px;
+}
+#desc{
+    display: grid;
+    width: 100%;
+    border: 1px solid green;
+    height: 280px;
 }
