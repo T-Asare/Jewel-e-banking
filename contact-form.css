@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+input[type=text], select, textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%; 
+    padding: 12px;
+    border: 2px solid rgb(39, 37, 37); 
+    border-radius: 3.5px; 
+    box-sizing: border-box;
+    margin-top: 7px; 
+    margin-bottom: 15px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color:blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Creating hover effect*/
+  input[type=submit]:hover {
+    background-color: rgb(21, 255, 0);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: wheat;
+    padding: 20px;
+  }
