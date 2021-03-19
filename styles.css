@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color:aliceblue;
     margin: 0%;
     padding: 0%;
 }
@@ -14,9 +14,7 @@ body{
 
 
 }
-.imge{
-    height: 100%;
-}
+
 .big{
     width: 95vw;
     border: 1px solid turquoise;
@@ -75,10 +73,24 @@ body{
 .card1{
     border: 1px solid red;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 300px;
-    padding: 4px;
-
+    margin: 0%;
+    padding-top: 0%;
+}
+.imge{
+    border: 2px solid black;
+    height: inherit;
+    margin-top: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.imge img{
+    object-fit: contain;
+    height: 100%;
+    margin: 0%;
+    object-fit: cover;
 }
 .card2{
     border: 1px solid red;
@@ -99,4 +111,18 @@ body{
     width: 100%;
     border: 1px solid green;
     height: 280px;
+}
+footer{
+    display: flex;
+    grid-template-columns: auto;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.footeritems{
+    display: grid;
+    margin-right: 75px;
+    margin-left: 30px;
+    
 }
