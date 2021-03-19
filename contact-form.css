@@ -33,3 +33,10 @@ input[type=text], select, textarea {
     background-color: wheat;
     padding: 20px;
   }
+  .socials{
+      height: 50px;
+
+  }
+li{
+    display: inline-block;
+}
